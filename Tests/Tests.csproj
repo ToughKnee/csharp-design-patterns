@@ -1,11 +1,8 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
-
+    <TargetFramework>net7.0</TargetFramework>
     <IsPackable>false</IsPackable>
   </PropertyGroup>
-
   <ItemGroup>
     <PackageReference Include="AutoFixture" Version="4.13.0" />
     <PackageReference Include="coverlet.msbuild" Version="2.9.0">
@@ -20,9 +17,7 @@
     <PackageReference Include="xunit.runner.visualstudio" Version="2.4.0" />
     <PackageReference Include="coverlet.collector" Version="1.0.1" />
   </ItemGroup>
-
   <ItemGroup>
-
     <ProjectReference Include="..\Patterns\AbstractFactory\AbstractFactory.csproj" />
     <ProjectReference Include="..\Patterns\Adapter\Adapter.csproj" />
     <ProjectReference Include="..\Patterns\Bridge\Bridge.csproj" />
@@ -46,5 +41,4 @@
     <ProjectReference Include="..\Patterns\Visitor\Visitor.csproj" />
     <ProjectReference Include="..\Patterns\Iterator\Iterator.csproj" />
   </ItemGroup>
-
 </Project>
